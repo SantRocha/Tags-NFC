@@ -1,0 +1,128 @@
+body {
+    background-color: #181819;
+    min-width: 400px;
+    margin: 0px;
+}
+
+#preta {
+    width: 600px;
+    height: 600px;
+    background-color: #1F1F20; /* #1F1F20 */
+    transform: rotate(45deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    top: -300px;
+    left: -87px;
+}
+
+#cinza {
+    width: 550px;
+    height: 550px;
+    background-color: #333334;
+}
+
+h1, h3 {
+    position: relative;
+    top: -580px;
+    color: white;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-family: monospace;
+    color: #BFA87D;
+    font-weight: 700;
+    font-size: 1.3em;
+    letter-spacing: 3px;
+}
+
+#logo {
+    width: 150px;
+    position: relative;
+    top: -580px;
+    left: 150px;
+    margin: auto;
+}
+
+#foto {
+    position: relative;
+    top: -580px;
+}
+
+#foto, #fotoB {
+    width: 160px;
+    height: 160px;
+    margin: 50px auto;
+    border-radius: 50%;
+    background-color: #BFA87D;
+    display: flex;
+    align-items: center;
+}
+
+#fotoB {
+    background-color: #181819;
+    width: 148px;
+    height: 148px;
+}
+
+#fotoP {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#redes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    position: relative;
+    top: -600px;
+}
+
+a {
+    color: #BFA87D;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.rede {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.rede img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin: auto;
+}
+
+h4 {
+    margin: 0px;
+}
+
+hr {
+    background-color: #BFA87D;
+    height: 3px;
+    width: 100%;
+    margin: 10px 0px;
+    border: none;
+}
+

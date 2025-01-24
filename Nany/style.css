@@ -10,7 +10,6 @@ body {
     margin: auto;
     min-width: 840px;
     max-width: 1200px;
-    margin: auto;
 }
 
 .carrossel-geral, .contador-container {
@@ -51,35 +50,12 @@ p {
 
 .carrossel-imagens {
     display: flex;
-    transition: transform 1s ease-in-out;
 }
 
 .carrossel-imagens img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-
-/* Estilo das bolinhas de contador */
-.contador {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: -6px;
-}
-
-.bolinha {
-    width: 12px;
-    height: 12px;
-    margin: 0 5px;
-    border-radius: 50%;
-    background-color: #ccc;
-    transition: background-color 0.8s;
-}
-
-.bolinha.active {
-    background-color: #FE0F0E;
 }
 
 .valor {
@@ -101,10 +77,6 @@ a {
     color: white;
     display: flex;
     align-items: center;
-}
-
-span {
-    font-weight: bold;
 }
 
 .logo {
