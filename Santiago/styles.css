@@ -126,3 +126,16 @@ hr {
     border: none;
 }
 
+.pressione {
+    width: 50px;
+    margin: auto;
+    position: relative;
+    top: -580px;
+    left: 175px
+}
+
+.toque {
+    justify-content: center;
+    width: 110px;
+    font-size: 1.1em;
+}
